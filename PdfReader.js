@@ -30,7 +30,7 @@ function forEachItem(pdf, handler) {
     });
     for (var t in page.Texts) {
       var item = page.Texts[t];
-      item.text = decodeURIComponent(item.R[0].T);
+      item.text = item.R ? decodeURIComponent(item.R[0].T) : "";
       handler(null, item);
     }
   }
