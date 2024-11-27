@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0-development",
   "description": "Read text and parse tables from PDF files. Supports tabular data with automatic column detection, and rule-based parsing.",
-  "main": "dist/index.cjs",
+  "main": "index.js",
   "module": "./index.js",
   "typings": "./index.d.ts",
   "scripts": {
